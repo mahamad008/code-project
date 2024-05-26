@@ -1,0 +1,5 @@
+.piechartcontiner{
+  box-shadow: 1px 1px 5px 0px rgba(122, 118, 118, 0.75);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(126, 121, 121, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(119, 113, 113, 0.75);
+}

@@ -1,0 +1,225 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id    Int       @id @default(autoincrement())
+  givenName String
+  username  String ?
+  email     String    @unique
+  isPaid Boolean @default(false)
+  password  String
+  joinedAt  DateTime  @default(now())
+  updatedAt DateTime @updatedAt
+  isAdmin   Boolean   @default(false)
+  IsDeleted Boolean @default(false)
+  isTeacher Boolean @default(false)
+  teacherRequest teacherRequest[]
+
+isOflineTeacher Boolean @default(false)
+Teacher Teacher[]
+oflineCategory oflineCategory[]
+oflinecources oflinecources[]
+Student Student[]
+Exam Exam[]
+oflineenrollment oflineenrollment[]
+salary salary[]
+Fee Fee[]
+Subcource Subcource[]
+}
+model teacherRequest{
+  id Int @id @default(autoincrement())
+  teacherId Int
+  User User @relation(fields: [teacherId],references: [id])
+  message String 
+  phoneNumber String
+
+}
+model contact{
+  id Int @id @default(autoincrement())
+   Name String
+   email String 
+   message String 
+     isDeleted      Boolean   @default(false)
+     createdAt DateTime @default(now())
+  UpadatedAt DateTime @updatedAt
+  
+   } 
+
+model Teacher{
+  Id Int @id @default(autoincrement())
+  Name String
+  phone String
+  Amount Float
+  isDeleted          Boolean    @default(false)
+  salary salary[]
+  method String  ?
+  password String
+  // Cource Cource[]
+  oflinecources oflinecources[]
+  createdAt DateTime @default(now()) 
+  UpadatedAt DateTime @updatedAt
+  userId Int
+  user User @relation(fields: [userId],references: [id])
+  }
+
+model Student{
+  Id Int @id @default(autoincrement())
+  Name String
+  phone String 
+  Address String ?
+  isDeleted          Boolean    @default(false)
+  createdAt DateTime @default(now())
+  UpadatedAt DateTime @updatedAt
+  
+  Fee Fee[]
+  Exam Exam[]
+  oflineenrollment oflineenrollment[]
+    userId Int
+  user User @relation(fields: [userId],references: [id])
+  
+}
+model oflinecources {
+  id Int @id @default(autoincrement())
+  Name String
+  Description String?
+  oflineenrollment oflineenrollment[]
+  teacherId Int
+    isDeleted      Boolean   @default(false)
+  Teacher Teacher @relation(fields: [teacherId],references: [Id])
+   createdAt DateTime @default(now())
+  UpadatedAt DateTime @updatedAt
+  Subcource Subcource[]
+  shift String 
+ OflineCategoryId Int
+ oflineCategory oflineCategory @relation(fields: [OflineCategoryId],references: [OflineCatId])
+ ISavailable Boolean @default(false)
+   userId Int
+  user User @relation(fields: [userId],references: [id])
+
+  
+}
+
+model Exam {
+  id        Int      @id @default(autoincrement())
+  Studentname      String ?
+  studentPhone String 
+  CourceName String
+  Total Float
+  TakeDate DateTime @default(now())
+  UpdateDate DateTime @updatedAt
+  isDeleted Boolean @default(false)
+  studentId Int
+  SubcourceId Int
+  Totalscore String ?
+  Subcource Subcource @relation(fields: [SubcourceId],references: [SubcourceId])
+  Student Student @relation(fields: [studentId],references: [Id])
+    userId Int
+  user User @relation(fields: [userId],references: [id])
+}
+model oflineenrollment{
+  id Int @id @default(autoincrement())
+  studentId Int 
+  Student Student @relation(fields: [studentId],references: [Id])
+  OflinecourceId Int 
+  StudentName String
+  oflinecources oflinecources @relation(fields: [OflinecourceId],references: [id])
+    createdAt DateTime @default(now())
+  UpadatedAt DateTime @updatedAt
+    isDeleted      Boolean   @default(false)
+      userId Int
+  user User @relation(fields: [userId],references: [id])
+}
+model salary{
+  id Int @id @default(autoincrement())
+  Amount Float
+  TeacherName String
+  TeacherPhone String
+  isDeleted          Boolean    @default(false)
+ method String 
+  createdAt DateTime @default(now())
+  UpadatedAt DateTime @updatedAt
+  teacherId Int 
+  Teacher Teacher @relation(fields: [teacherId],references: [Id])
+    userId Int
+  user User @relation(fields: [userId],references: [id])
+
+}
+
+
+
+model Fee {
+  id        Int      @id @default(autoincrement())
+  amountPaid    Float
+  Balance Float
+  studentPhone String
+  studentName String
+  Amountneed Float
+  PaidAt DateTime @default(now())
+  UpdatedAt DateTime @updatedAt
+  student   Student  @relation(fields: [studentId], references: [Id])
+  isDeleted Boolean @default(false)
+    feeMonthId Int 
+  feeMonth feeMonth @relation(fields: [feeMonthId],references: [id])
+  studentId Int
+    userId Int
+  user User @relation(fields: [userId],references: [id])
+}
+
+
+
+
+
+
+
+
+
+
+
+model Subcource{
+  SubcourceId Int @id @default(autoincrement())
+  Title String
+  Description String
+    isDeleted      Boolean   @default(false)
+  OflinecourceId Int
+  oflinecources oflinecources @relation(fields: [OflinecourceId],references: [id])
+  CreatedAt DateTime @default(now())
+  UpdatedAt DateTime @updatedAt
+  Exam Exam[]
+    userId Int
+  user User @relation(fields: [userId],references: [id])
+}
+
+model oflineCategory {
+  OflineCatId Int @id @default(autoincrement())
+  oflineCatDescription String 
+  OflineCatName String 
+  oflinecources oflinecources[]
+  createdAt DateTime @default(now())
+  
+  updatedAt DateTime @updatedAt
+  isDeleted Boolean @default(false)
+    userId Int
+  user User @relation(fields: [userId],references: [id])
+}
+
+
+
+model feeMonth{
+  id Int @id @default(autoincrement())
+  FeeTitle String
+  Amount Int
+  Fee Fee[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+ isDeleted Boolean @default(false) 
+
+}

@@ -1,0 +1,359 @@
+.subcourcecontiner{
+    margin: 14px;
+    max-height: 90vh;
+    /* box-shadow: 1px 1px 5px 0px rgba(245, 0, 0, 0.75); */
+    /* -webkit-box-shadow: 1px 1px 5px 0px rgba(17, 0, 255, 0.75); */
+    /* -moz-box-shadow: 1px 1px 5px 0px rgba(16, 0, 241, 0.75); */
+    overflow: auto;
+    padding: 2px;
+    padding: 20px;
+    border-radius: 7px;
+  }
+  .btncansavest{
+    transition: all ease-in-out 0.6s;
+    border-radius: 5px;
+    padding: 7px;
+  }
+  .btncansavest:hover{
+    background-color: green;
+  }
+  
+  .categ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .add {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  table.childtable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table.childtable th,
+  table.childtable td {
+    border: 1px solid #ffeded;
+    padding: 2px;
+  }
+  
+  table.childtable th {
+    background-color: #cac8ca;
+  
+  }
+  
+  tbody.bodytablecategory .border:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .category-input {
+    color: yellow;
+    background: blue;
+  }
+  .btncansavest{
+    background-color: gray;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid blue;
+    margin-bottom: 5px;
+    height: 30px;
+  }
+  .editexam
+{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .deleteexam {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  @media(max-width:768px){
+    .subcourcecontiner{
+      width: 38rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:758px){
+    .subcourcecontiner{
+      width: 35rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:706px){
+    .subcourcecontiner{
+      width:90%;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:766px){
+    .subcourcecontiner{
+      width:34rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:763px){
+    .subcourcecontiner{
+      width:33rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:646px){
+    .subcourcecontiner{
+      width:  32rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:636px){
+    .subcourcecontiner{
+      width:  31rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:628px){
+    .subcourcecontiner{
+      width:30rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:616px){
+    .subcourcecontiner{
+      width: 29rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:606px){
+    .subcourcecontiner{
+      width:  28rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:596px){
+    .subcourcecontiner{
+      width: 27rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:586px){
+    .subcourcecontiner{
+      width:  26rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:576px){
+    .subcourcecontiner{
+      width:  25rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:566px){
+    .subcourcecontiner{
+      width:  24rem;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:546px){
+    .subcourcecontiner{
+      width:  390px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:536px){
+    .subcourcecontiner{
+      width:  380px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:526px){
+    .subcourcecontiner{
+      width:  370px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:516px){
+    .subcourcecontiner{
+      width:  360px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:506px){
+    .subcourcecontiner{
+      width:  350px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:496px){
+    .subcourcecontiner{
+      width:  340px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:486px){
+    .subcourcecontiner{
+      width:  330px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:476px){
+    .subcourcecontiner{
+      width:  320px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:466px){
+    .subcourcecontiner{
+      width:  310px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:456px){
+    .subcourcecontiner{
+      width:  290px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+  @media(max-width:436px){
+    .subcourcecontiner{
+      width:  280px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:426px){
+    .subcourcecontiner{
+      width:  270px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:416px){
+    .subcourcecontiner{
+      width:  260px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:406px){
+    .subcourcecontiner{
+      width:  250px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:396px){
+    .subcourcecontiner{
+      width:  240px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:386px){
+    .subcourcecontiner{
+      width:  230px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+ 
+  @media(max-width:376px){
+    .subcourcecontiner{
+      width:  220px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:366px){
+    .subcourcecontiner{
+      width:  210px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:356px){
+    .subcourcecontiner{
+      width:  196px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 
+  @media(max-width:346px){
+    .subcourcecontiner{
+      width:  186px;
+      margin: 1px;
+      font-size: 12px;
+    }
+  }
+ 

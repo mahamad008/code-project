@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const OnlineInrollment_1 = require("../controllers/OnlineInrollment");
+const onlineEnrollment = (0, express_1.Router)();
+onlineEnrollment.post('/new', OnlineInrollment_1.Registerenrollment);
+onlineEnrollment.get('/get/all', OnlineInrollment_1.getallonlineenrollment);
+onlineEnrollment.get('/get/one/:id', OnlineInrollment_1.getoneenrollment);
+onlineEnrollment.delete('/delete/:id', OnlineInrollment_1.deleteonlineEnrollment);
+onlineEnrollment.delete('/delete', OnlineInrollment_1.deleteall);
+onlineEnrollment.put('/update/:id', OnlineInrollment_1.updateonlinerollment);
+exports.default = onlineEnrollment;

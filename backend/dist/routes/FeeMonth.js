@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const FeeMonth_1 = require("../controllers/FeeMonth");
+const feeMonthRouter = (0, express_1.Router)();
+feeMonthRouter.post('/create', FeeMonth_1.CreatefeeMonth);
+feeMonthRouter.get('/all', FeeMonth_1.getallfeeMonth);
+feeMonthRouter.get('/get/:id', FeeMonth_1.getonefeeMonth);
+feeMonthRouter.get('/get/detail/:id', FeeMonth_1.GetFeemonth);
+feeMonthRouter.delete('/delete/:id', FeeMonth_1.deletefeeMonth);
+feeMonthRouter.put('/update/:id', FeeMonth_1.updatefeeMonth);
+feeMonthRouter.put('/trash/:id', FeeMonth_1.trashfeeMonth);
+feeMonthRouter.put('/restore/:id', FeeMonth_1.retorefeeMonth);
+exports.default = feeMonthRouter;

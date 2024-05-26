@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const CantactCantroller_1 = require("../controllers/CantactCantroller");
+const jwt_1 = require("../helpers/security/jwt");
+const ContactRouter = (0, express_1.Router)();
+ContactRouter.post('/new', CantactCantroller_1.Createcontact);
+ContactRouter.get('/get/all', CantactCantroller_1.getallcontact);
+ContactRouter.get('/get/one/:id', jwt_1.decodeToken, CantactCantroller_1.getonecontact);
+ContactRouter.put('/update/:id', jwt_1.decodeToken, CantactCantroller_1.updatecontact);
+ContactRouter.put('/trash/:id', CantactCantroller_1.trashcontact);
+ContactRouter.put('/restore/:id', CantactCantroller_1.restorecontact);
+ContactRouter.delete('/delete/:id', CantactCantroller_1.deletecontact);
+exports.default = ContactRouter;

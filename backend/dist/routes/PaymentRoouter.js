@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const PaymentCantroller_1 = require("../controllers/PaymentCantroller");
+const paymentrouter = (0, express_1.Router)();
+paymentrouter.post('/pay', PaymentCantroller_1.createPayment);
+paymentrouter.get('/get/all', PaymentCantroller_1.getallpayment);
+paymentrouter.get('/get/total', PaymentCantroller_1.gettotalpayment);
+paymentrouter.put('/trash/:id', PaymentCantroller_1.trashpayment);
+paymentrouter.put('/restore/:id', PaymentCantroller_1.restorepayment);
+paymentrouter.delete('/delete', PaymentCantroller_1.deleteall);
+paymentrouter.delete('/delete/:id', PaymentCantroller_1.deletePayment);
+exports.default = paymentrouter;

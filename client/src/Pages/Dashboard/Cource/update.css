@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .courceContiner{
+
+} */
+.courceContiner input{
+    width: 100%;
+    color: black;
+}
+.btnsupdatecource{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.svbtnup {
+    width: 100%;
+    border: 2px solid green;
+    transition: all ease-in-out;
+}
+.svbtnup:hover{
+    background-color: green;
+}
+.cancelbtnupdate {
+    width: 100%;
+    text-align: center;
+    border: 2px solid rgb(73, 75, 73);
+    transition: all ease-in-out;
+}
+.cancelbtnupdate:hover{
+    background-color: rgb(88, 88, 88);
+}
+@media(max-width:768px){
+    .courceContiner{
+        width: 38rem;
+    }
+}
+@media(max-width:758px){
+    .courceContiner{
+        width: 37rem;
+    }
+}
+@media(max-width:748px){
+    .courceContiner{
+        width: 36rem;
+    }
+}
+@media(max-width:738px){
+    .courceContiner{
+        width: 35rem;
+    }
+}
+@media(max-width:728px){
+    .courceContiner{
+        width: 34rem;
+    }
+}
+@media(max-width:718px){
+    .courceContiner{
+        width: 33rem;
+    }
+}
+@media(max-width:708px){
+    .courceContiner{
+        width: 32rem;
+    }
+}
+@media(max-width:698px){
+    .courceContiner{
+        width: 31rem;
+    }
+}
+@media(max-width:688px){
+    .courceContiner{
+        width: 30rem;
+    }
+}
+@media(max-width:628px){
+    .courceContiner{
+        width: 29rem;
+    }
+}
+@media(max-width:608px){
+    .courceContiner{
+        width: 28rem;
+    }
+}
+@media(max-width:598px){
+    .courceContiner{
+        width: 27rem;
+    }
+}
+@media(max-width:588px){
+    .courceContiner{
+        width: 26rem;
+    }
+}
+@media(max-width:578px){
+    .courceContiner{
+        width: 25rem;
+    }
+}
+@media(max-width:568px){
+    .courceContiner{
+        width: 24rem;
+    }
+}
+@media(max-width:538px){
+    .courceContiner{
+        width: 23rem;
+    }
+}
+@media(max-width:518px){
+    .courceContiner{
+        width: 22rem;
+    }
+}
+@media(max-width:508px){
+    .courceContiner{
+        width: 21rem;
+    }
+}
+@media(max-width:453px){
+    .courceContiner{
+        width: 20rem;
+    }
+}
+@media(max-width:478px){
+    .courceContiner{
+        width: 19rem;
+    }
+}
+@media(max-width:448px){
+    .courceContiner{
+        width: 18rem;
+    }
+}
+@media(max-width:438px){
+    .courceContiner{
+        width: 17rem;
+    }
+}
+@media(max-width:418px){
+    .courceContiner{
+        width: 16rem;
+    }
+}
+@media(max-width:408px){
+    .courceContiner{
+        width: 15rem;
+    }
+}
+@media(max-width:388px){
+    .courceContiner{
+        width: 14rem;
+    }
+}
+@media(max-width:368px){
+    .courceContiner{
+        width: 13rem;
+    }
+}
+@media(max-width:350px){
+    .courceContiner{
+        width: 100%;
+    }
+}

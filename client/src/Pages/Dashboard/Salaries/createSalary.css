@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.salaryregisterationcontiner{
+    border: 1.4px solid rgb(104, 104, 104);
+    padding: 6px;
+    border-radius: 3px;
+}
+.salaryregisterationcontiner input{
+    width: 100%;
+    color: black;
+}
+.btnss{
+    display: flex;
+    gap: 10px;
+    margin-top: 7px;
+    padding-bottom: 6px;
+}
+.svsalrybtn{
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    border: green 1.5px solid;
+    transition: all ease-in-out 0.6s;
+}
+.svsalrybtn:hover{
+    background-color: green;
+}
+.cbtnsalary{
+    width: 100%;
+    border-radius: 7px;
+    text-align: center;
+    border: rgb(78, 97, 78) 1.5px solid;
+    transition: all ease-in-out 0.6s;
+}
+.cbtnsalary:hover{
+    background-color: rgb(78, 97, 78);
+}
+@media(max-width:768px){
+    .salaryregisterationcontiner{
+        width: 38rem;
+    }
+}
+@media(max-width:758px){
+    .salaryregisterationcontiner{
+        width: 37rem;
+    }
+}
+@media(max-width:748px){
+    .salaryregisterationcontiner{
+        width: 36rem;
+    }
+}
+@media(max-width:738px){
+    .salaryregisterationcontiner{
+        width: 35rem;
+    }
+}
+@media(max-width:728px){
+    .salaryregisterationcontiner{
+        width: 34rem;
+    }
+}
+@media(max-width:718px){
+    .salaryregisterationcontiner{
+        width: 33rem;
+    }
+}
+@media(max-width:708px){
+    .salaryregisterationcontiner{
+        width: 32rem;
+    }
+}
+@media(max-width:698px){
+    .salaryregisterationcontiner{
+        width: 31rem;
+    }
+}
+@media(max-width:688px){
+    .salaryregisterationcontiner{
+        width: 30rem;
+    }
+}
+@media(max-width:628px){
+    .salaryregisterationcontiner{
+        width: 29rem;
+    }
+}
+@media(max-width:608px){
+    .salaryregisterationcontiner{
+        width: 28rem;
+    }
+}
+@media(max-width:598px){
+    .salaryregisterationcontiner{
+        width: 27rem;
+    }
+}
+@media(max-width:588px){
+    .salaryregisterationcontiner{
+        width: 26rem;
+    }
+}
+@media(max-width:578px){
+    .salaryregisterationcontiner{
+        width: 25rem;
+    }
+}
+@media(max-width:568px){
+    .salaryregisterationcontiner{
+        width: 24rem;
+    }
+}
+@media(max-width:538px){
+    .salaryregisterationcontiner{
+        width: 23rem;
+    }
+}
+@media(max-width:518px){
+    .salaryregisterationcontiner{
+        width: 22rem;
+    }
+}
+@media(max-width:508px){
+    .salaryregisterationcontiner{
+        width: 21rem;
+    }
+}
+@media(max-width:453px){
+    .salaryregisterationcontiner{
+        width: 20rem;
+    }
+}
+@media(max-width:478px){
+    .salaryregisterationcontiner{
+        width: 19rem;
+    }
+}
+@media(max-width:448px){
+    .salaryregisterationcontiner{
+        width: 18rem;
+    }
+}
+@media(max-width:438px){
+    .salaryregisterationcontiner{
+        width: 17rem;
+    }
+}
+@media(max-width:418px){
+    .salaryregisterationcontiner{
+        width: 16rem;
+    }
+}
+@media(max-width:408px){
+    .salaryregisterationcontiner{
+        width: 15rem;
+    }
+}
+@media(max-width:388px){
+    .salaryregisterationcontiner{
+        width: 14rem;
+    }
+}
+@media(max-width:368px){
+    .salaryregisterationcontiner{
+        width: 13rem;
+    }
+}
+@media(max-width:350px){
+    .salaryregisterationcontiner{
+        width: 100%;
+    }
+}

@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const OflineCategory_1 = require("../controllers/OflineCategory");
+const oflineCategoryRouter = (0, express_1.Router)();
+oflineCategoryRouter.post('/New', OflineCategory_1.createOflineCategory);
+oflineCategoryRouter.get('/get/one/:OflineCatId', OflineCategory_1.getOneOflineCategory);
+oflineCategoryRouter.get('/get/all', OflineCategory_1.getAlloflineCategories);
+oflineCategoryRouter.put('/update/:OflineCatId', OflineCategory_1.updateOflineCategory);
+oflineCategoryRouter.put('/retore/:id', OflineCategory_1.retoreoflinecatgory);
+oflineCategoryRouter.put('/trash/:id', OflineCategory_1.trashoflinecategory);
+oflineCategoryRouter.delete('/delete/:OflineCatId', OflineCategory_1.deleteOflineCategory);
+exports.default = oflineCategoryRouter;

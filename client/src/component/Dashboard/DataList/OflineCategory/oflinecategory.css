@@ -1,0 +1,75 @@
+
+  .OflinecategoryTable{
+   
+      margin: 6px;
+      /* height: 90vh; */
+      /* margin-left: 20px; */
+      padding: 10px;
+  
+      font-size: 12px;
+      border-radius: 5px;
+      overflow: auto;
+    }
+  
+@media(max-width:673px){
+  .Oflinecategorylist{
+    width: 440px;
+  }
+}
+@media(max-width:648px){
+  .Oflinecategorylist{
+    width: 420px;
+  }
+}
+@media(max-width:629px){
+  .Oflinecategorylist{
+    width: 400px;
+  }
+}
+@media(max-width:609px){
+  .Oflinecategorylist{
+    width: 390px;
+  }
+}
+@media(max-width:527px){
+  .Oflinecategorylist{
+    width: 380px;
+  }
+}
+@media(max-width:517px){
+  .Oflinecategorylist{
+    width: 360px;
+  }
+}
+@media(max-width:495px){
+  .Oflinecategorylist{
+    width: 340px;
+  }
+}
+@media(max-width:475px){
+  .Oflinecategorylist{
+    width: 320px;
+  }
+}
+@media(max-width:452px){
+  .Oflinecategorylist{
+    width: 300px;
+  }
+}
+@media(max-width:435px){
+  .Oflinecategorylist{
+    width: 270px;
+  }
+}
+@media(max-width:418px){
+  .Oflinecategorylist{
+    width: 250px;
+  }
+
+}
+@media(max-width:386px){
+  .Oflinecategorylist{
+    width: 230px;
+  }
+
+}

@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.updatecontiner{
+  /* border: 2px solid gray; */
+  margin: 13px;
+  border-radius: 20px;
+  border-radius: 6px;
+  padding: 20px;
+}
+.updatecontiner input{
+  width: 100%;
+  color: gray;
+}
+
+
+@media(max-width:768px){
+  .updatecontiner{
+    width: 600px;
+  }
+}
+@media(max-width:746px){
+  .updatecontiner{
+    width: 500px;
+  }
+}
+@media(max-width:646px){
+  .updatecontiner{
+    width: 400px;
+  }
+}
+@media(max-width:546px){
+  .updatecontiner{
+    width: 100%;
+  }
+}

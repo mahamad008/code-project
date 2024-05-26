@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.createexam{
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.createexamform input{
+    width: 100%;
+    margin-top: 30px;
+}
+.createexambtns{
+    gap: 20px;
+    display: flex;
+}
+.savebtnexam{
+    transition: all ease-in-out 1s;
+    width: 50%;
+    border: 2px solid gray;
+}
+.backbtnexamcreate{
+    transition: all ease-in-out 1s;
+    color: blueviolet;
+    width: 50%;
+    border: 2px solid yellow;
+}
+.savebtnexam:hover{
+    background-color: gray;
+}
+.backbtnexamcreate:hover{
+    background-color: yellow;
+}

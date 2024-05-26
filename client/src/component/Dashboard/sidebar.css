@@ -1,0 +1,11 @@
+/* Add this CSS to your styles file */
+@media (max-width: 640px) {
+    .hide-text .MuiListItemText-root {
+      display: none;
+    }
+  
+    .hide-text:hover .MuiListItemText-root {
+      display: initial;
+    }
+  }
+  

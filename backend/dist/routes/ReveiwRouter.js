@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const ReviewCantroller_1 = require("../controllers/ReviewCantroller");
+const jwt_1 = require("../helpers/security/jwt");
+const ReviewRouter = (0, express_1.Router)();
+ReviewRouter.post('/create', jwt_1.decodeToken, ReviewCantroller_1.Createreview);
+ReviewRouter.get('/get/all', jwt_1.decodeToken, ReviewCantroller_1.getallreview);
+ReviewRouter.get('/get/one/:id', jwt_1.decodeToken, ReviewCantroller_1.getonereview);
+ReviewRouter.put('/update/:id', jwt_1.decodeToken, ReviewCantroller_1.updatereview);
+ReviewRouter.delete('/delete/:id', jwt_1.decodeToken, ReviewCantroller_1.deletereview);
+exports.default = ReviewRouter;

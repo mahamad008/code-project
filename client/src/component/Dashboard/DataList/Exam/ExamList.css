@@ -1,0 +1,246 @@
+.continterexamlist {
+    /* margin: 20px; */
+    max-height: 90vh;
+    border-radius:4px;
+    padding: 3px;
+    /* font-style: oblique; */
+    /* border: 2px solid gray; */
+   max-width: 1140px;
+    overflow: auto;
+  }
+  
+  .categ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .add {
+    /* background-color: #4caf50; */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  table.examchild {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table.examchild th,
+  table.examchild td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table.examchild th {
+    background-color: #f6f0ff;
+  }
+  
+  tbody.bodytablecategory .border:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .category-input {
+    color: yellow;
+    background: blue;
+  }
+  .btncansaveexam{
+    background-color: gray;
+    width: 100%;
+    transition: all ease-in-out 0.5s;
+   margin-top: 5px;
+   padding: 4px;
+   border-radius: 3px;
+   margin-bottom: 20px;
+  }
+  .btncansaveexam:hover{
+    background-color: green;
+  }
+  .editexam
+{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .deleteexam {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  @media(max-width:1115px){
+    .continterexamlist{
+      max-width: 199%;
+    }
+  }
+  @media(max-width:768px){
+    .continterexamlist{
+      width: 37rem;
+    }
+  }
+
+  @media(max-width:766px){
+    .continterexamlist{
+      width: 36rem;
+    }
+  }
+  @media(max-width:750px){
+    .continterexamlist{
+      width: 35rem;
+    }
+  }
+  @media(max-width:735px){
+    .continterexamlist{
+      width: 34rem;
+    }
+  }
+  @media(max-width:718px){
+    .continterexamlist{
+      width: 33rem;
+    }
+  }
+  @media(max-width:702px){
+    .continterexamlist{
+      width: 32rem;
+    }
+  }
+  @media(max-width:686px){
+    .continterexamlist{
+      width: 31rem;
+    }
+  }
+  @media(max-width:670px){
+    .continterexamlist{
+      width: 29rem;
+    }
+  }
+  @media(max-width:654px){
+    .continterexamlist{
+      width: 28rem;
+    }
+  }
+  @media(max-width:637px){
+    .continterexamlist{
+      width: 27rem;
+    }
+  }
+  @media(max-width:622px){
+    .continterexamlist{
+      width: 26rem;
+    }
+  }
+  @media(max-width:607px){
+    .continterexamlist{
+      width: 25rem;
+    }
+  }
+  @media(max-width:590px){
+    .continterexamlist{
+      width: 24rem;
+    }
+  }
+  @media(max-width:573px){
+    .continterexamlist{
+      width: 23rem;
+    }
+  }
+  @media(max-width:557px){
+    .continterexamlist{
+      width: 22rem;
+    }
+  }
+  @media(max-width:542px){
+    .continterexamlist{
+      width: 21rem;
+    }
+  }
+  @media(max-width:525px){
+    .continterexamlist{
+      width: 20rem;
+    }
+  }
+  @media(max-width:515px){
+    .continterexamlist{
+      width: 19rem;
+    }
+  }
+  @media(max-width:494px){
+    .continterexamlist{
+      width: 18rem;
+    }
+  }
+  @media(max-width:477px){
+    .continterexamlist{
+      width: 17rem;
+    }
+  }
+  @media(max-width:462px){
+    .continterexamlist{
+      width: 16rem;
+    }
+  }
+  @media(max-width:446px){
+    .continterexamlist{
+      width: 15rem;
+    }
+  }
+  @media(max-width:430px){
+    .continterexamlist{
+      width: 14rem;
+    }
+  }
+  @media(max-width:414px){
+    .continterexamlist{
+      width: 13rem;
+    }
+  }
+  @media(max-width:396px){
+    .continterexamlist{
+      width: 12rem;
+
+
+    }
+  }
+  @media(max-width:383px){
+    .continterexamlist{
+      width: 11rem;
+    }
+  }
+  @media(max-width:365px){
+    .continterexamlist{
+      width: 10rem;
+    }
+  }
+  @media(max-width:350px){
+    .continterexamlist{
+      width: 9rem;
+    }
+  }

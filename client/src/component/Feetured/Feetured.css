@@ -1,0 +1,65 @@
+.Featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  
+  .FeaturedItem {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 4px;
+    width: 97%;
+    max-width: 320px;
+    box-shadow: 1px 1px 5px 0px rgba(122, 118, 118, 0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(126, 121, 121, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(119, 113, 113, 0.75);
+    cursor: pointer;
+  }
+  
+  .FeaturedTitle {
+    font-size: 20px;
+  }
+  
+  .FeaturedMoneyContainer {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .FeaturedMoney {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .FeaturedMoneyRate {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .FeaturedIcon {
+    color: green;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .FeaturedSub {
+    color: gray;
+    font-size: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .Featured {
+      /* justify-content: center; */
+      display: block;
+      /* width: 70%; */
+    }
+  
+    .FeaturedItem {
+      flex: 0 0 45%;
+      max-width: 400px;
+    }
+  }

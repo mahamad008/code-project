@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.CreateStudentcontiner{
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 8px;
+}
+.CreateStudentcontiner input{
+    width: 100%;
+    margin-top: 27px;
+}
+.CreateStudentcontiner .bstsave{
+   border: 1px solid green;
+   transition: all ease-in-out 0.7s;
+   width: 100%;
+   border-radius: 4px;
+}
+.btnscreatestudent{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.bbck{
+    border:1px solid rgb(11, 11, 223);
+    width: 100%;
+    transition: all ease-in-out 0.9s;
+    border-radius: 4px;
+}
+.bbck:hover{
+    background-color: blue;
+}
+.bstsave:hover{
+    background-color: green;
+}
+@media(max-width:768px){
+    .CreateStudentcontiner{
+        width: 38rem;
+    }
+}
+@media(max-width:756px){
+    .CreateStudentcontiner{
+        width: 36rem;
+    }
+}
+@media(max-width:716px){
+    .CreateStudentcontiner{
+        width: 30rem;
+    }
+}
+@media(max-width:624px){
+    .CreateStudentcontiner{
+        width: 27rem;
+    }
+}
+@media(max-width:576px){
+    .CreateStudentcontiner{
+        width: 24rem;
+    }
+}
+@media(max-width:532px){
+    .CreateStudentcontiner{
+        width: 22rem;
+    }
+}
+@media(max-width:496px){
+    .CreateStudentcontiner{
+        width: 20rem;
+    }
+}
+@media(max-width:466px){
+    .CreateStudentcontiner{
+        width: 18rem;
+    }
+}
+@media(max-width:456px){
+    .CreateStudentcontiner{
+        width: 18rem;
+    }
+}
+@media(max-width:432px){
+    .CreateStudentcontiner{
+        width: 17rem;
+    }
+}
+@media(max-width:416px){
+    .CreateStudentcontiner{
+        width: 16rem;
+    }
+}
+@media(max-width:406px){
+    .CreateStudentcontiner{
+        width: 15rem;
+    }
+}
+@media(max-width:386px){
+    .CreateStudentcontiner{
+        width: 14rem;
+    }
+}
+@media(max-width:386px){
+    .CreateStudentcontiner{
+        width: 14rem;
+    }
+}
+@media(max-width:369px){
+    .CreateStudentcontiner{
+        width: 13rem;
+    }
+}
+@media(max-width:352px){
+    .CreateStudentcontiner{
+        width: 12rem;
+    }
+}
+@media(max-width:336px){
+    .CreateStudentcontiner{
+        width: 11rem;
+    }
+}

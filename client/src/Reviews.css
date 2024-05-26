@@ -1,0 +1,11 @@
+.Reviewstar {
+  cursor: pointer;
+}
+
+.Reviewstar.orange {
+  color: #FFB500;
+}
+
+.Reviewstar.gray {
+  color: #A9A9A9;
+}

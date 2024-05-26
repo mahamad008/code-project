@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.registerationteacher{
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+}
+.registerationteacher input{
+    width: 100%;
+    margin-top: 20px;
+    color: blue;
+}
+.btntcontiner{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+.bckbtnt{
+    transition: all ease-in-out 0.6s;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid ghostwhite;
+    
+}
+.bckbtnt:hover{
+    background-color: ghostwhite;
+    color: black;
+}
+.svbtnt{
+    width: 100%;
+    border-radius: 5px;
+    transition: all ease-in-out 0.6s;
+    border: 2px solid rgb(155, 155, 155);
+
+}
+.svbtnt:hover{
+    background-color:rgb(155, 155, 155);
+    color: black;
+
+}
+
+@media(max-width:768px){
+    .registerationteacher{
+        width: 38rem;
+    }
+}
+@media(max-width:758px){
+    .registerationteacher{
+        width: 37rem;
+    }
+}
+@media(max-width:748px){
+    .registerationteacher{
+        width: 36rem;
+    }
+}
+@media(max-width:738px){
+    .registerationteacher{
+        width: 35rem;
+    }
+}
+@media(max-width:728px){
+    .registerationteacher{
+        width: 34rem;
+    }
+}
+@media(max-width:718px){
+    .registerationteacher{
+        width: 33rem;
+    }
+}
+@media(max-width:708px){
+    .registerationteacher{
+        width: 32rem;
+    }
+}
+@media(max-width:698px){
+    .registerationteacher{
+        width: 31rem;
+    }
+}
+@media(max-width:688px){
+    .registerationteacher{
+        width: 30rem;
+    }
+}
+@media(max-width:628px){
+    .registerationteacher{
+        width: 29rem;
+    }
+}
+@media(max-width:608px){
+    .registerationteacher{
+        width: 28rem;
+    }
+}
+@media(max-width:598px){
+    .registerationteacher{
+        width: 27rem;
+    }
+}
+@media(max-width:588px){
+    .registerationteacher{
+        width: 26rem;
+    }
+}
+@media(max-width:578px){
+    .registerationteacher{
+        width: 25rem;
+    }
+}
+@media(max-width:568px){
+    .registerationteacher{
+        width: 24rem;
+    }
+}
+@media(max-width:538px){
+    .registerationteacher{
+        width: 23rem;
+    }
+}
+@media(max-width:518px){
+    .registerationteacher{
+        width: 22rem;
+    }
+}
+@media(max-width:508px){
+    .registerationteacher{
+        width: 21rem;
+    }
+}
+@media(max-width:453px){
+    .registerationteacher{
+        width: 20rem;
+    }
+}
+@media(max-width:478px){
+    .registerationteacher{
+        width: 19rem;
+    }
+}
+@media(max-width:448px){
+    .registerationteacher{
+        width: 18rem;
+    }
+}
+@media(max-width:438px){
+    .registerationteacher{
+        width: 17rem;
+    }
+}
+@media(max-width:418px){
+    .registerationteacher{
+        width: 16rem;
+    }
+}
+@media(max-width:408px){
+    .registerationteacher{
+        width: 15rem;
+    }
+}
+@media(max-width:388px){
+    .registerationteacher{
+        width: 14rem;
+    }
+}
+@media(max-width:368px){
+    .registerationteacher{
+        width: 13rem;
+    }
+}
+@media(max-width:350px){
+    .registerationteacher{
+        width: 100%;
+    }
+}

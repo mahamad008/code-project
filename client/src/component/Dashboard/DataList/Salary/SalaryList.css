@@ -1,0 +1,248 @@
+.salaryparent {
+    margin: 6px;
+    max-height: 90vh;
+    /* margin-left: 20px; */
+    padding: 10px;
+
+    font-size: 12px;
+    border-radius: 5px;
+    overflow: auto;
+  }
+
+  .categ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .svbtnc{
+    transition: all ease-in-out 0.5s;
+    width: 100%;
+    border: 1px solid green;
+  }
+  .svbtnc:hover{
+    background-color: green;
+  }
+  .add {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 3px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    /* padding: 6px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; */
+     border-radius: 4px; 
+    /* background-color: #000000; */
+  }
+  
+  table.salarychild {
+    width: 100%;
+    /* border-collapse: collapse; */
+  }
+  
+  table.salarychild th,
+  table.salarychild td {
+    border: 1px solid #ddd;
+    padding: 2px;
+  }
+  
+  table.salarychild th {
+    background-color: #d5d5d5;
+  }
+  
+  tbody.bodytablecategory .border:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+
+  
+
+
+  @media(max-width:768px){
+    .salaryparent{
+      width: 38rem;
+    }
+  }
+  @media(max-width:766px){
+    .salaryparent{
+      width: 37rem;
+    }
+  }
+  @media(max-width:750px){
+    .salaryparent{
+      width: 36rem;
+    }
+  }
+  @media(max-width:735px){
+    .salaryparent{
+      width: 35rem;
+    }
+  }
+  @media(max-width:718px){
+    .salaryparent{
+      width: 34rem;
+    }
+  }
+  @media(max-width:702px){
+    .salaryparent{
+      width: 33rem;
+    }
+  }
+  @media(max-width:686px){
+    .salaryparent{
+      width: 32rem;
+    }
+  }
+  @media(max-width:670px){
+    .salaryparent{
+      width: 31rem;
+    }
+  }
+  @media(max-width:654px){
+    .salaryparent{
+      width: 30rem;
+    }
+  }
+  @media(max-width:637px){
+    .salaryparent{
+      width: 29rem;
+    }
+  }
+  @media(max-width:622px){
+    .salaryparent{
+      width: 28rem;
+    }
+  }
+  @media(max-width:607px){
+    .salaryparent{
+      width: 33rem;
+    }
+  }
+  @media(max-width:590px){
+    .salaryparent{
+      width: 33rem;
+    }
+  }
+  @media(max-width:580px){
+    .salaryparent{
+      width: 32rem;
+    }
+  }
+  @media(max-width:573px){
+    .salaryparent{
+      width: 32rem;
+    }
+  }
+  @media(max-width:557px){
+    .salaryparent{
+      width: 30rem;
+    }
+  }
+  @media(max-width:542px){
+    .salaryparent{
+      width: 29rem;
+    }
+  }
+  @media(max-width:532px){
+    .salaryparent{
+      width: 29rem;
+    }
+  }
+  @media(max-width:525px){
+    .salaryparent{
+      width: 28rem;
+    }
+  }
+  @media(max-width:515px){
+    .salaryparent{
+      width: 28rem;
+    }
+  }
+  @media(max-width:500px){
+    .salaryparent{
+      width: 27rem;
+    }
+  }
+  @media(max-width:497px){
+    .salaryparent{
+      width: 24rem;
+    }
+  }
+  @media(max-width:477px){
+    .salaryparent{
+      width:25rem;
+    }
+  }
+  @media(max-width:470px){
+    .salaryparent{
+      width:24rem;
+    }
+  }
+  @media(max-width:462px){
+    .salaryparent{
+      width: 24rem;
+    }
+  }
+  @media(max-width:455px){
+    .salaryparent{
+      width: 23.5rem;
+    }
+  }
+  @media(max-width:454px){
+    .salaryparent{
+      width: 23.5rem;
+    }
+  }
+  @media(max-width:446px){
+    .salaryparent{
+      width: 2rem;
+    }
+  }
+  @media(max-width:442px){
+    .salaryparent{
+      width: 22rem;
+    }
+  }
+  @media(max-width:430px){
+    .salaryparent{
+      width: 21rem;
+    }
+  }
+  @media(max-width:414px){
+    .salaryparent{
+      width: 20rem;
+    }
+  }
+  @media(max-width:399px){
+    .salaryparent{
+      width: 19rem;
+    }
+  }
+  @media(max-width:385px){
+    .salaryparent{
+      width: 18rem;
+    }
+  }
+  @media(max-width:373px){
+    .salaryparent{
+      width: 17rem;
+    }
+  }
+  @media(max-width:365px){
+    .salaryparent{
+      width: 17rem;
+    }
+  }
+  @media(max-width:350px){
+    .salaryparent{
+      width: 1rem;
+    }
+  }
